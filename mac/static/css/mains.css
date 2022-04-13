@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+
+h1 {
+    color: red;
+  }
+body{
+  padding: 0;
+  margin: 0;
+  align-items: center;
+
+
+  
+}
+
+.alert{
+  background-color: #f74d2fce;
+  height: 80px;
+  width: 320px;
+  margin: 5% 0vh 0px 38%;
+}
+
+.woring{
+  color: red;
+  margin: 0px 100px ;
+  font-size: 30px;
+}
+
+.alert_msg{
+  font-size: 20px;
+  margin: 0px 30px ;
+
+}
+
+.r-nav{
+  margin: 0;
+  justify-content: unset;
+  place-content: space-between;
+  
+}
+.creat{
+  height: 100%;
+  background-image: url('../img/vector-techno-style-social-media-icons-background.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+
+  padding-bottom: 25%;
+  
+}
+.creat_sec{
+  padding-top: 25vh;
+}
+p{
+  padding: 10px 0 10px  0 ;
+  margin: 0 0 0  45%;
+  font-size: 27px;
+  font-family: 'Otomanopee One', sans-serif;
+  color: #2196f3;
+}
+.name{
+  background: rgb(13, 7, 68);
+  margin: 10vh 0 -2.5vh 0 ;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.na{
+  padding: 1em;
+}
+
+
+.inst{
+  color: black;
+  font-weight: bold;
+  border-radius: 5em;
+  margin-top: -1em;
+  margin-right: 5px;
+  padding: 0.6em 2em;
+  font-size: 1.4em;
+  background: #2196f3;
+  cursor: pointer;
+  text-decoration: none; 
+}
+
+.inst1{
+  margin-top: 5%;
+  margin-left: 32%;
+  margin-bottom: 50px;
+  transition: 2s;
+}
+.home{
+
+
+  color: black;
+  border: 3px solid #2196f3;
+  font-weight: bold;
+  border-radius: 5em;
+  margin-right: 2px;
+  margin-top: -1em;
+  padding: 0.3em 1em;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.con-imo{
+  height: 100%;
+  background-image: url('../img/176-1764078_4k-ultra-hd-hi-tech-wallpapers-desktop-backgrounds.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+  
+  padding-bottom: 32%;
+}
+.imo{
+  padding-top: 70px;
+}
+.div-ins{
+  margin-top: 0vh;
+  background-color:#c0c0eb;
+}
+.instr{
+  padding-top: 2vh;
+  padding-bottom: 5vh;
+  padding-left: 5vh;
+}
+.steps{
+  color: rgb(6, 25, 53);
+  padding-bottom: 20px;
+  margin-bottom: 0;
+}
+.newul{
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(1, 17, 41) ;
+  font-size: 2em;
+  padding: 15px 50px;
+  margin: 0;
+}
+.navbar {
+  background: #c0c0eb;
+  padding: 0;
+  margin: 0;
+  align-items: initial;
+}  
+
+.sharey{
+  width: 80%;
+  margin-top: -170px;
+}
+
+
+.navbar .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-size: 2em;
+    padding: 15px 20px;
+    margin: 0;
+  }
+.user-name{
+  color: #2196f3;
+  font-size: 22px;
+  font-family: 'Otomanopee One', sans-serif;
+  padding: 0 0 0 0;
+  margin: 12px 0 0 0 ;
+}
+.user-name span{
+  font-family: 'Otomanopee One', sans-serif;
+  color: black;
+}
+.navbar  .logo span {
+    color: red;
+  }
+
+.contener{
+    display: flex;
+    place-content: space-between;
+}
+
+.add{
+    background: #f2f2f2;
+    color: black;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.share{
+    background: #2196f3;
+    color: black;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+}
+.delete{
+    background: red;
+    color: cornsilk;
+    text-decoration: none;
+    padding: 0.6em 1.3em;
+    font-size: 1.4;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+}
+
+
+.adding{
+    height: 30%;
+    width: 70%;
+    text-align: center;
+    padding: 40px 0px 0% 27% ;
+    margin: 0;
+}
+
+.n{
+  margin-top: 20px;
+}
+
+.namey{
+  margin-bottom: 10px;
+}
+
+.hover{
+  position: relative;
+  padding: 15px 30px;
+  color: #2196f3;
+  text-decoration: none;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.hover:hover{
+  border-radius: 50px;
+  background: rgb(216, 194, 194 ,.7);
+  
+  transition: 1s;
+  
+  
+}
+
+.hover span{
+  position: absolute;
+  display: block;
+}
+.hover span:nth-child(1){
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg,transparent,#5fa8d3);
+}
+.hover:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+.hover span:nth-child(3){
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(270deg,transparent,#5fa8d3);
+}
+.hover:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s ;
+}
+
+.form{
+  width: 50%;
+  height: 50px;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 7%;
+  margin-left: 25%;
+  margin-right: 50%;
+}
+
+.form input{
+  height: 100%;
+  width: 100%;
+  padding-top: 15px;
+  border: none;
+  background: none;
+  border: none;
+  outline: none;
+}
+.form label{
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid black;
+  
+}
+.form label::after{
+  content: '';
+  position: absolute;
+  left: 0px;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 3px solid #5fa8d3;
+  transform: translateX(-200%);
+  
+}
+.con-name{
+  position: absolute;
+  bottom: 5px;
+  left: 0px;
+  transition: all 0.3s ease;
+  
+}
+.form input:focus + .label-name .con-name,
+.form input:valid + .label-name .con-name{
+  transform: translateY(-150%);
+  font-size: 14px;
+  color: #5fa8d3;
+  
+}
+.form input:focus + .label-name::after , .form input:valid + .label-name::after{
+  transform: translateX(0%);
+  
+}
+.errorlist{
+  display: none;
+}
+.textbox {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid #2196f3;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 18px;
+  width: 80px;
+  float: left;
+  margin: 10px;
+}
+.submit{
+  width: 100px;
+  height: 40px;
+  border: 1px solid;
+  background: #2691d9;
+  border-radius: 10px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  margin-top: 15px;
+}
+
+.center{
+  position: absolute;
+  margin-top: -13vh;
+  margin-left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  background: none;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+.center form{
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+form .text_field{
+  position: relative;
+  border-bottom: 2px solid black;
+  margin: 30px 0;
+}
+.text_field input{
+  width: 100%;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: none;
+}
+.text_field label{
+  position: absolute;
+  top: 50%;
+  left: 5px;
+  color: #adadad;
+  transform: translateY(-50%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.text_field span::before{
+  content: '';
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #2980b9;
+  transition: 0.5s;
+}
+.text_field input:focus ~ label,
+.text_field input:valid ~ label{
+  top: -5px;
+  color: #2980b9;
+}
+.text_field input:focus ~ span::before,
+.text_field input:valid ~ span::before{
+  width: 100%;
+}
+
+.logo{
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+  font-size: 2em;
+  margin: 0;
+  padding-left: 42%;
+}
+.s{
+  color: red;
+}
+
+.mult{
+  font-size: 2em;
+  margin-left: 15px;
+  margin-top: -15px;
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+  .inst{
+    font-weight: 600;
+    padding: 0.3em 1em;
+  }  .creat{
+    height: 120%;
+    padding-bottom: 52.5vh ;  
+  }
+
+}
+
+@media screen and (max-width:768px){
+
+  .form{
+    margin-left: 10%;
+    margin-right: 50%;
+    margin-bottom: 80px ;
+    width: 55vh;
+  }
+  
+  .inst{
+    font-weight: 600;
+    padding: 0.3em 1em;
+    margin-left: -10px;
+  }
+  .adding{
+    height: 20%;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px 0% 27% ;
+    margin-left: -50px;
+  }
+  .newul{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(1, 17, 41) ;
+    font-size: 1.4em;
+    padding: 15px 50px;
+    margin: 0;
+  }
+  .share{
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+  .n{
+    margin-top: 20px;
+  }
+  .creat{
+    height: 120%;
+    background-image: url('../img/vector-techno-style-social-media-icons-background.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+  
+    padding-bottom: 52.5vh ;
+    
+  }
+  
+  .alert{
+    background-color: #ffffffce;
+    height: 18%;
+    width: 60%;
+    margin: 15% 0vh 0px 20%;
+  }
+
+  .name{
+    margin-left: -50px;
+  }
+
+  .woring{
+    color: red;
+    margin-left: 50px;
+    margin-top: -10px;
+    font-size: 30px;
+  }
+
+  .alert_msg{
+    font-size: 20px;
+    margin: 0px 0px ;
+
+  }
+  .sharey{
+    width: 80%;
+    margin-top: -170px;
+  }
+}

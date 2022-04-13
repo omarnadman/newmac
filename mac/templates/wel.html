@@ -1,0 +1,40 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static '/css/wel.css' %}">
+    <title>Document</title>
+</head>
+<body>
+
+    <section class="wel">
+        <div class="main-wel">
+            <p class="logo"> MA<span class="s">C</span></p>
+            <p class="mult">Multiple accounts <span class="s">C</span>ontainer</p>
+            <h1 class="welcoming">welcom to mac here you can save all yor social media accounts, links and websait pages and share it where ever you want easily</h1>
+            
+            <div class="con">
+
+                
+                <div class="sstart">
+    
+                    <a class="inst" href="{% url 'login' %}">login</a>
+                </div>
+                
+                <div class="inst1" >
+                    <a class="inst" href="register">register</a>            
+                </div>
+    
+            </div>
+            
+        </div>
+
+
+    </section>
+    
+</body>
+</html>

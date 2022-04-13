@@ -1,0 +1,73 @@
+{% extends 'main.html' %}
+
+{% block main %}
+    <div class="name">
+        <p>{{ user.name }} list </p>
+
+
+    </div>
+    <div class="creat">
+        <section class="creat_sec">
+            
+
+            <form class="center" action="" method="POST" enctype="multipart/form-data">
+
+                {% csrf_token %}
+
+                <div class="text_field">
+                    <input type="text" name="link" required>
+                    <label>link</label>
+                    <span></span>
+                </div>
+
+                <div class="text_field" >
+                    <input type="text" name="name" required>
+                    <label>name</label>
+                    <span></span>
+                </div>
+
+            
+                <input type="submit" name="submit" value="submit" class="submit">
+
+            </form>
+                            
+                   
+                {% if messages %}
+                {% for msg in messages %}
+                <div class="alert"> 
+                    <h1 class="woring">whoring!!</h1>
+                    <div class="alert_msg" role="alert">
+                        {{msg}}
+                    </div>
+                </div>
+                {% endfor %}
+                {% endif %}
+            
+
+            <div class="n">
+                {% for li in user.link_set.all %}
+                <div class="adding">
+                    <div class="hover">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <h1>{{ li.linkname }}</h1>
+                        <a class="add" href="{{ li.links }}" target="_blank">{{ li.linkname }}</a>
+
+                        <a class="delete" href="{% url 'deleteli' li.id %}">delete</a>
+
+                    </div>
+                </div>
+                {% endfor %}
+
+
+
+
+            </div>
+        </section>
+    </div>
+
+    
+{% endblock %}
+
