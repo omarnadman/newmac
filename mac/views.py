@@ -1,7 +1,7 @@
 from cgitb import html
 from email import message
 from wsgiref.util import request_uri
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect ,HttpResponseRedirect
 from .models import UserPage, Link
 from .forms import register, createList
 from django.contrib.auth import login, logout ,authenticate
@@ -70,7 +70,7 @@ def loginpage(request):
         if usern is not None:
             login(request,usern)
             
-            return redirect('home')
+            return HttpResponseRedirect('home')
         
 
     return render(request,'login.html',{})
