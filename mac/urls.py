@@ -13,5 +13,6 @@ urlpatterns = [
     path('delete/<str:pk>',views.deletelink, name='delete'),
     path('deleteli/<str:pk>',views.deleteli, name='deleteli'),
     path('share/<int:id>', views.share , name='share' ),
-    path('' ,views.wel , name='welcome')
+    path('' ,views.wel , name='welcome'),
+    path('how_to_use' ,views.use , name='how_to_use'),
 ]

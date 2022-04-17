@@ -28,9 +28,12 @@
             </div>
             <div class="form-row">
                 <div class="form-group col-sm-6 col-md-10">
+                    <label for="">email*</label>
                     {{ form.email}}
                 </div>
             </div>
+
+
             <div class="form-row">
                 <div class="form-group col-sm-6 col-md-10">
                     <label for="">password*</label>
@@ -45,10 +48,10 @@
                 </div>
             </div>
             <div class="in">
-                <input type="submit" value="login">
+                <input type="submit" value="register">
             </div>
 
-            <p class="al">Already have an account ? <a href="login">log in</a></p>
+            <p class="al">Already have an account ? <a href="{% url 'login' %}">log in</a></p>
         </form>
     </div>    
 </body>

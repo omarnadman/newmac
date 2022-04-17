@@ -70,7 +70,7 @@ def loginpage(request):
         if usern is not None:
             login(request,usern)
             
-            return HttpResponseRedirect('home')
+            return redirect('home')
         
 
     return render(request,'login.html',{})
@@ -113,3 +113,6 @@ def share(request, id):
 
 def wel(request):
     return render(request, 'wel.html')
+
+def use(request):
+    return render(request, 'how_to_use.html')
