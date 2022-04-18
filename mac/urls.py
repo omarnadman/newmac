@@ -15,4 +15,6 @@ urlpatterns = [
     path('share/<int:id>', views.share , name='share' ),
     path('' ,views.wel , name='welcome'),
     path('how_to_use' ,views.use , name='how_to_use'),
+    path('<str:pk>' ,views.crash , name='crash'),
+    path('<str:pk>/<str:mk>' ,views.crash , name='crash'),
 ]

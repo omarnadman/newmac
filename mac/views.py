@@ -118,5 +118,9 @@ def use(request):
     return render(request, 'how_to_use.html')
 
 
-def error_404(request, pk):
+def crash(request,pk):
     return render(request, 'crash.html')
+
+def crash(request,pk , mk):
+    return render(request, 'crash.html')
+
