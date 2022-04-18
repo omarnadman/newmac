@@ -1,13 +1,22 @@
+{% load static %}
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>page not</title>
+    <link rel="stylesheet" type="text/css" href="{% static '/css/crash.css' %}">
+    <title>page not found</title>
 </head>
 <body>
-    <H1>not found</H1>
-    <a href="{% url 'home' %}">what sha</a>
+    <H1>page not found</H1>
+    <h1>404 error</h1>
+
+    
+    <div class="inst1" >
+        <a class="inst" href="{% url 'login' %}">visit us</a>
+    </div>
 </body>
 </html>

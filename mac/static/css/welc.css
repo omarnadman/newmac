@@ -1,11 +1,10 @@
 body{
     
-    height: 100%;
+    height: 120%;
     width: 100%;
     background-image: url('../img/436806.jpg');
     background-attachment: fixed;
     background-position: center;
-
     background-size: cover;
     overflow: auto;
     margin: 0;
@@ -106,6 +105,17 @@ a{
 }
 
 @media screen and (max-width:768px){
+
+    body{
+        height: 120%;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        overflow: auto;
+      
+        padding-bottom: 52.5vh ;
+        
+    }
 
     .main-wel{
         height: 58vh;
