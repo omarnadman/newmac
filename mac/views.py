@@ -116,3 +116,7 @@ def wel(request):
 
 def use(request):
     return render(request, 'how_to_use.html')
+
+
+def error_404(request, pk):
+    return render(request, 'crash.html')
